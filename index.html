@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduNusa — High Fidelity Mockup & Design System</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- BAGIAN 1: DOKUMENTASI DESIGN SYSTEM (PALET WARNA, TYPE SCALE, BUTTON, CARD) -->
+  <section class="design-system-bar">
+    <div class="container">
+      <div class="ds-header">
+        <h2> Layanan Pendidikan Digital (EduNusa)</h2>
+        <p>Dokumentasi palet warna, skala tipografi, gaya tombol, dan gaya kartu sebelum implementasi penuh.</p>
+      </div>
+
+      <div class="ds-grid">
+        <!-- 1. Palet Warna -->
+        <div class="ds-box">
+          <h3>1. Palet Warna</h3>
+          <div class="swatch-list">
+            <div class="swatch">
+              <span class="swatch-color" style="background: #1D4ED8;"></span>
+              <div>
+                <strong>Primary Blue</strong>
+                <small>#1D4ED8</small>
+              </div>
+            </div>
+            <div class="swatch">
+              <span class="swatch-color" style="background: #F59E0B;"></span>
+              <div>
+                <strong>Accent Amber</strong>
+                <small>#F59E0B</small>
+              </div>
+            </div>
+            <div class="swatch">
+              <span class="swatch-color" style="background: #0F172A;"></span>
+              <div>
+                <strong>Dark Slate (Teks)</strong>
+                <small>#0F172A</small>
+              </div>
+            </div>
+            <div class="swatch">
+              <span class="swatch-color" style="background: #F8FAFC; border: 1px solid #CBD5E1;"></span>
+              <div>
+                <strong>Surface Light</strong>
+                <small>#F8FAFC</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Type Scale -->
+        <div class="ds-box">
+          <h3>2. Type Scale</h3>
+          <ul class="type-list">
+            <li><span class="ts-h1">Heading 1 — 36px Bold</span></li>
+            <li><span class="ts-h2">Heading 2 — 24px Bold</span></li>
+            <li><span class="ts-h3">Heading 3 — 18px SemiBold</span></li>
+            <li><span class="ts-body">Body Text — 15px Regular</span></li>
+            <li><span class="ts-caption">Caption / Label — 12px Medium</span></li>
+          </ul>
+        </div>
+
+        <!-- 3. Button Style -->
+        <div class="ds-box">
+          <h3>3. Button Style</h3>
+          <div class="btn-showcase">
+            <button type="button" class="btn btn-primary">Tombol Utama (Primary)</button>
+            <button type="button" class="btn btn-secondary">Tombol Sekunder</button>
+            <button type="button" class="btn btn-outline">Tombol Outline</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BAGIAN 2: MOCKUP HIGH FIDELITY LAYANAN PENDIDIKAN DIGITAL -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="brand">Edu<span>Nusa</span></a>
+      <nav class="nav-links">
+        <a href="#program">Program Belajar</a>
+        <a href="#keunggulan">Keunggulan</a>
+        <a href="#mobile-preview">Versi Mobile</a>
+      </nav>
+      <a href="#program" class="btn btn-primary btn-sm">Mulai Belajar</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section dengan Visual Hierarchy Jelas -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="pill">PLATFORM BELAJAR INTERAKTIF</span>
+          <h1>Tingkatkan Skill Digital dengan Kurikulum Praktis &amp; Mentor Industri</h1>
+          <p>
+            Belajar terarah melalui studi kasus nyata, proyek portofolio, dan pendampingan langsung untuk mempersiapkan karier di bidang teknologi.
+          </p>
+          <div class="hero-actions">
+            <a href="#program" class="btn btn-primary">Daftar Kelas Gratis</a>
+            <a href="#mobile-preview" class="btn btn-outline">Lihat Tampilan Mobile</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>12.000+</strong><span>Siswa Aktif</span></div>
+            <div><strong>45+</strong><span>Kelas Praktik</span></div>
+            <div><strong>4.9/5</strong><span>Rating Mentor</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card-preview">
+          <div class="course-card featured-card">
+            <span class="card-tag">KELAS POPULER</span>
+            <h3>Full-Stack Web &amp; UI/UX Design</h3>
+            <p>12 Modul • Proyek Akhir • Sertifikat Resmi</p>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 75%;"></div>
+            </div>
+            <div class="card-footer">
+              <span class="price">Gratis Sesi Perdana</span>
+              <button type="button" class="btn btn-accent btn-sm">Ikuti Kelas</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Card Style Section: Daftar Program Pendidikan -->
+    <section id="program" class="section-program">
+      <div class="container">
+        <div class="section-title">
+          <h2>Pilihan Jalur Pembelajaran</h2>
+          <p>Penerapan konsisten komponen Card Style dengan hierarki informasi yang terstruktur.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="course-card">
+            <span class="card-tag">PEMULA</span>
+            <h3>Dasar Desain Antarmuka (UI/UX)</h3>
+            <p>Memahami wireframe, sistem warna, tipografi, dan prototipe interaktif dari nol.</p>
+            <div class="card-footer">
+              <span class="meta">8 Minggu • 24 Video</span>
+              <a href="#" class="btn btn-primary btn-sm">Pilih Jalur</a>
+            </div>
+          </article>
+
+          <article class="course-card">
+            <span class="card-tag">MENENGAH</span>
+            <h3>Pengembangan Web Responsif</h3>
+            <p>Membangun tata letak modern dengan HTML5, CSS Grid, Flexbox, dan optimasi mobile.</p>
+            <div class="card-footer">
+              <span class="meta">10 Minggu • 32 Video</span>
+              <a href="#" class="btn btn-primary btn-sm">Pilih Jalur</a>
+            </div>
+          </article>
+
+          <article class="course-card">
+            <span class="card-tag">LANJUTAN</span>
+            <h3>Manajemen Produk Digital</h3>
+            <p>Validasi ide produk, riset pengguna, serta penyusunan roadmap pengembangan aplikasi.</p>
+            <div class="card-footer">
+              <span class="meta">6 Minggu • 18 Video</span>
+              <a href="#" class="btn btn-primary btn-sm">Pilih Jalur</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Simulasi Frame Versi Mobile (375px) -->
+    <section id="mobile-preview" class="section-mobile">
+      <div class="container">
+        <div class="section-title">
+          <h2>Adaptasi Versi Mobile (375px)</h2>
+          <p>Menampilkan penyesuaian susunan kolom tunggal, ukuran tombol utama, dan keterbacaan di layar ponsel.</p>
+        </div>
+
+        <div class="mobile-frame">
+          <div class="mobile-notch"></div>
+          <div class="mobile-screen">
+            <div class="mobile-nav">
+              <strong>Edu<span style="color:#1D4ED8;">Nusa</span></strong>
+              <span class="mobile-menu-icon">☰</span>
+            </div>
+            <span class="pill" style="font-size:11px;">BELAJAR DI MANA SAJA</span>
+            <h3 style="margin:10px 0 8px; font-size:20px; line-height:1.3;">
+              Kuasai Skill Digital Langsung dari Ponselmu
+            </h3>
+            <p style="font-size:13px; color:#475569; margin-bottom:14px;">
+              Akses materi video ringkas, kuis interaktif, dan diskusi mentor kapan saja.
+            </p>
+            <button type="button" class="btn btn-primary" style="width:100%; margin-bottom:14px;">
+              Daftar Sekarang
+            </button>
+
+            <div class="course-card" style="padding:14px;">
+              <span class="card-tag">REKOMENDASI</span>
+              <h4 style="margin:6px 0; font-size:15px;">UI/UX Design Dasar</h4>
+              <p style="font-size:12px; margin:0 0 10px;">8 Minggu • Sertifikat</p>
+              <button type="button" class="btn btn-accent btn-sm" style="width:100%;">Mulai Modul 1</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
